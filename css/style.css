@@ -30,11 +30,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    border-bottom: 3px, solid, rgba(246,248,249,255);
 }
 
 #head {
-    margin-left: 5%;
+    padding-left: 5%;
+    border-bottom: 3px solid rgba(246,248,249,255);
 }
 
 button {
@@ -61,4 +61,45 @@ button {
     border: 1px;
     border-style: solid;
     border-color: #dcdfe2;
+}
+
+.task {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.second_title *{
+    display: inline-block   ;
+}
+
+.center {
+    padding-left: 5%;
+}
+
+small {
+    font-size: 10px;
+    margin: 0.5px 4px;
+    vertical-align: middle;
+}
+
+.paragraph * {
+    display: inline-block;
+}
+
+.paragraph .text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.green_tick {
+    border: 1px solid #62bea7;
+    color: #62bea7;
+    border-radius: 50%;
+}
+
+.blue {
+    color: white;
+    background-color: #3da7e8;
+    border-radius: 7.5px;
+    padding: 2px 4px;
 }
