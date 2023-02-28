@@ -18,3 +18,47 @@ h1 {
     font-weight: 800;
     font-size: 40px;
 }
+
+#gray_box {
+    background-color: rgba(246,248,249,255);
+    padding-top: 30px;
+}
+
+#container {
+    background-color: white;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-bottom: 3px, solid, rgba(246,248,249,255);
+}
+
+#head {
+    margin-left: 5%;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blue_button {
+    color: white;
+    background-color: #47adf1;
+    border: 1px;
+    border-style: solid;
+    border-color: #47adf1;
+}
+
+#gray_button {
+    color: #dcdfe2;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: #dcdfe2;
+}
